@@ -1,0 +1,12 @@
+version: "2"
+authtoken: your_auth_token
+region: us # Change to your region (e.g., eu, ap, au, sa)
+tunnels:
+  kafka:
+    addr: 8000
+    proto: tcp
+    metadata: "Kafka Server"
+  flask:
+    addr: 8082
+    proto: http
+    metadata: "Flask Server"
