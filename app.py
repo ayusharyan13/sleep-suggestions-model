@@ -23,7 +23,7 @@ except Exception as e:
 # -----------------------------------
 # 2. Configure LLM (Google Generative AI)
 # -----------------------------------
-API_KEY = "AIzaSyB6g26IKzLUqNGyU4TXYmF56AN1HnXd71o" # Ensure this is set in your environment
+API_KEY = "Enter this your api_key" # Ensure this is set in your environment
 
 if not API_KEY:
     raise ValueError("API key for Google Generative AI not found. Please set the 'GOOGLE_GENERATIVE_AI_API_KEY' environment variable.")
